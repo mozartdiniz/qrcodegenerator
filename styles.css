@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 52px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+#qrcode {
+    width:100px;
+    height:100px;
+    margin-top:15px;
+}
+
+.outPutQR {
+    width: 200px;
+    height: 200px;
+}
+
+.qrCodeBaseContainer {
+  float: left;
+  padding: 30px;
+  position: relative;
+  width: calc(30% - 60px);
+}
+
+.qrPicker {
+    float: left;
+    width: calc(100% - 50px);
+    padding: 10px 10px 10px 28px;
+}
